@@ -1,0 +1,11 @@
+# Play Pong Bot
+
+## Install
+To install this package, run the following
+
+    python3.8 -m venv .
+    . bin/activate
+    python -m pip install -r requirements.txt
+
+## Configuration
+ [TODO]
