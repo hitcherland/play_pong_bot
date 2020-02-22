@@ -15,10 +15,8 @@ def main():
 
     bot = TwitterBot(consumer_key, consumer_secret, token_key, token_secret)
 
-    tweet = bot.get_last_tweet()
-    print(tweet.full_text)
-    print(tweet.card_uri)
-    print(tweet.entities)
+    tweet = bot.get_last_tweet(need_polls=True)
+    print(tweet)
 
 if __name__ == '__main__':
     main()

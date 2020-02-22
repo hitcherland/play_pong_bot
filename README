@@ -8,4 +8,9 @@ To install this package, run the following
     python -m pip install -r requirements.txt
 
 ## Configuration
- [TODO]
+First, we must get our twitter api keys
+    #file: API_ENV
+    export PLAY_PONG_BOT_CONSUMER_KEY="MY_TWITTER_CONSUMER_KEY"
+    export PLAY_PONG_BOT_CONSUMER_SECRET="MY_TWITTER_CONSUMER_SECRET"
+    export PLAY_PONG_BOT_TOKEN_KEY="MY_TWITTER_TOKEN_KEY"
+    export PLAY_PONG_BOT_TOKEN_SECRET="MY_TWITTER_TOKEN_SECRET"
